@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Hilton Consultancy | Legal Bulletin</title>
+
+  <style>
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body{
+      background:#f5f6fa;
+      color:#222;
+    }
+
+    header{
+      background:#0b1b33;
+      color:white;
+      padding:30px 15px;
+      text-align:center;
+    }
+
+    header h1{
+      font-size:30px;
+      margin-top:15px;
+    }
+
+    header p{
+      font-size:14px;
+      opacity:0.9;
+      margin-top:5px;
+    }
+
+    /* LOGO SECTION */
+    .logo-box{
+      width:160px;
+      height:160px;
+      margin:0 auto;
+      background:white;
+      border-radius:15px;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      overflow:hidden;
+      box-shadow:0 6px 15px rgba(0,0,0,0.2);
+    }
+
+    .logo-box img{
+      width:100%;
+      height:100%;
+      object-fit:cover;
+    }
+
+    nav{
+      background:#081426;
+      padding:12px;
+      display:flex;
+      justify-content:center;
+      gap:20px;
+      flex-wrap:wrap;
+    }
+
+    nav a{
+      color:white;
+      text-decoration:none;
+      font-size:14px;
+      padding:8px 14px;
+      border-radius:5px;
+      transition:0.3s;
+    }
+
+    nav a:hover{
+      background:#1e3a66;
+    }
+
+    .container{
+      width:92%;
+      max-width:1100px;
+      margin:30px auto;
+    }
+
+    .hero{
+      background:white;
+      padding:25px;
+      border-radius:12px;
+      box-shadow:0 4px 12px rgba(0,0,0,0.08);
+      margin-bottom:30px;
+    }
+
+    .hero h2{
+      font-size:22px;
+      margin-bottom:10px;
+      color:#0b1b33;
+    }
+
+    .hero p{
+      font-size:15px;
+      line-height:1.7;
+      color:#444;
+    }
+
+    .news-title{
+      font-size:22px;
+      margin-bottom:20px;
+      color:#0b1b33;
+    }
+
+    /* NEWS GRID */
+    .news-grid{
+      display:grid;
+      grid-template-columns:repeat(auto-fit, minmax(240px, 1fr));
+      gap:18px;
+    }
+
+    .news-card{
+      background:white;
+      border-radius:12px;
+      overflow:hidden;
+      box-shadow:0 4px 10px rgba(0,0,0,0.07);
+      transition:0.3s;
+      border-top:5px solid #0b1b33;
+    }
+
+    .news-card:hover{
+      transform:translateY(-5px);
+    }
+
+    .news-card img{
+      width:100%;
+      height:160px;
+      object-fit:cover;
+      background:#ddd;
+    }
+
+    .news-content{
+      padding:15px;
+    }
+
+    .news-content h3{
+      font-size:15px;
+      margin-bottom:6px;
+      color:#0b1b33;
+    }
+
+    .news-content small{
+      color:#777;
+      font-size:12px;
+      display:block;
+      margin-bottom:10px;
+    }
+
+    .news-content p{
+      font-size:13.5px;
+      line-height:1.6;
+      color:#444;
+    }
+
+    .section{
+      margin-top:40px;
+    }
+
+    footer{
+      margin-top:50px;
+      background:#0b1b33;
+      color:white;
+      text-align:center;
+      padding:18px;
+      font-size:13px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <!-- LOGO SPACE -->
+    <div class="logo-box">
+      <!-- Replace logo.png with your actual logo file -->
+      <img src="./img/A logo for Grey Hilton Law-Firm.png" alt="Hilton Consultancy Logo">
+    </div>
+
+    <h1>Hilton Consultancy</h1>
+    <p>Official Legal Bulletin | Announcements | Updates</p>
+  </header>
+
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#news">News</a>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <div class="container">
+
+    <!-- HOME SECTION -->
+    <div class="hero" id="home">
+      <h2>Welcome to Hilton Consultancy Bulletin</h2>
+      <p>
+        Welcome to Hilton Consultancy, a trusted legal consultancy firm committed to delivering professional legal guidance, corporate advisory services, and reliable documentation support to individuals, businesses, and organizations. This bulletin platform serves as our official channel for sharing important announcements, legal updates, client advisories, and public notices relevant to our operations and the legal environment.
+
+At Hilton Consultancy, we understand that legal matters require clarity, accuracy, and timely information. For this reason, we have created this website to ensure that our clients and the general public have access to verified updates directly from our firm. Whether you are seeking information regarding legal procedures, corporate compliance, documentation requirements, contract policies, or official announcements, this platform provides a secure and transparent source of information.
+
+Our goal is to promote legal awareness, support informed decision-making, and provide a reliable point of reference for clients who require professional legal assistance. We encourage all visitors to check this bulletin regularly for newly published notices and updates, as they may contain critical information related to consultations, legal services, document submissions, or regulatory changes.
+
+Thank you for visiting Hilton Consultancy. We remain committed to professionalism, integrity, and excellence in every service we provide.
+      </p>
+    </div>
+
+    <!-- NEWS SECTION -->
+    <div class="section" id="news">
+      <h2 class="news-title">Latest News & Bulletins</h2>
+
+      <div class="news-grid">
+
+        <!-- NEWS 1 -->
+        <div class="news-card">
+          <img src="./img/ICC PROBE.JPG" alt="News Image 1">
+          <div class="news-content">
+            <h3>
+Fraud Commited From 2022 Against a Lawfirm.</h3>
+            <small>Published: May 17, 2026</small>
+            <p>
+              Public Notice: Outstanding Legal Service Fees (2022 Engagement)
+
+Hilton Consultancy hereby issues this official notice regarding an engagement entered into in the year 2022 involving Mr. Shivadevkumar and an associate known as Raphael Gaius, connected to a legal dispute involving a legal practitioner based in the United Kingdom.
+
+Hilton Consultancy was formally engaged to provide professional legal advisory services, documentation support, and representation assistance in relation to the matter. All agreed services were rendered by the firm in accordance with professional standards and within the scope of engagement.
+
+Despite completion of the agreed legal services and multiple follow-ups, Mr. Shivadevkumar has failed to settle the outstanding professional fees owed to Hilton Consultancy for services provided during the 2022 engagement. The payment remains unresolved to date.
+
+This notice is issued for transparency and record purposes. Hilton Consultancy reserves the right to pursue lawful means necessary to recover outstanding professional fees and protect the firm’s integrity.
+
+For official inquiries regarding this notice, please contact Hilton Consultancy through our official channels.
+            </p>
+          </div>
+        </div>
+
+        <!-- NEWS 2 -->
+        <div class="news-card">
+          <img src="./img/CHURCH ID 1.JPG" alt="News Image 2">
+          <div class="news-content">
+            <h3>FGAG Bangalore Church ID</h3>
+            <small>Published: May 12, 2026</small>
+            <p>
+              Public Notice: Fraudulent Use of Church Identification
+
+Hilton Consultancy issues this notice to the general public regarding the fraudulent use of a church identification (Church ID) in connection with a deceptive transaction involving a church entity.
+
+It has come to the attention of Hilton Consultancy that certain individuals have been involved in the unauthorized use and presentation of a church identification card and related church documents in an attempt to create false credibility and trust. This act was allegedly used to mislead parties into believing that the transaction was legitimate and officially endorsed by a recognized church organization.
+
+The public is hereby advised that a church ID does not automatically validate an individual’s identity, authority, or legitimacy in any financial or legal transaction. Any person or organization conducting business with individuals claiming church affiliation is strongly advised to request proper verification, including official authorization letters, valid government-issued identification, and confirmed contact details of the church administration.
+
+Hilton Consultancy encourages the public to remain vigilant and avoid releasing funds, signing agreements, or entering into business arrangements based solely on religious affiliation claims or church identification documents.
+
+This notice is issued for awareness, transparency, and public safety purposes.
+
+Hilton Consultancy
+Legal Advisory & Consultancy Services
+            </p>
+          </div>
+        </div>
+
+        <!-- NEWS 3 -->
+        <div class="news-card">
+          <img src="./img/Media.png" alt="News Image 3">
+          <div class="news-content">
+            <h3>Death of Master Truman</h3>
+            <small>Published: May 05, 2026</small>
+            <p>
+              Public Notice: Fraud-Related Incidents and Risk to Life
+
+Hilton Consultancy issues this public notice to highlight the increasing danger of fraudulent activities and the severe consequences they may cause, including emotional trauma, financial ruin, medical complications, and in extreme situations, loss of life.
+
+Fraud is not only a financial crime; it is a serious threat that can destroy families, destabilize businesses, and push victims into distress, depression, and dangerous health conditions. In some cases, individuals have suffered severe medical emergencies due to the shock and pressure caused by financial deception, unpaid obligations, and deliberate manipulation.
+
+The public is strongly advised to exercise caution when engaging in transactions involving large sums of money, investments, business deals, loans, property agreements, and identity-related documents. Always confirm identities, verify documentation, and avoid sending funds based on promises, emotional pressure, or urgency tactics.
+
+Hilton Consultancy encourages anyone who suspects fraudulent activity to immediately report to the appropriate law enforcement agencies and seek professional legal guidance before taking further steps.
+
+This notice is issued for public awareness and safety.
+
+Hilton Consultancy
+Legal Advisory & Consultancy Services
+          </div>
+        </div>
+
+        <!-- NEWS 4 -->
+        <div class="news-card">
+          <img src="./img/VAL.jpeg" alt="News Image 4">
+          <div class="news-content">
+            <h3>IUse of A Scam Coin To Defraud (valobit)</h3>
+            <small>Published: April 29, 2026</small>
+            <p>
+              Public Notice: Valobit Rugpull Scam Alert (Europe & USA Victims)
+
+Hilton Consultancy issues this public notice to raise awareness regarding the reported Valobit rugpull scam, which has allegedly affected multiple individuals across Europe and the United States of America.
+
+Reports indicate that Valobit was promoted as a legitimate cryptocurrency-related platform and attracted users through promises of high returns, investment opportunities, and financial incentives. However, several victims have claimed that after depositing funds, they were unable to withdraw their assets, and communication channels associated with the platform became inactive or unresponsive.
+
+This type of scheme is commonly described as a rugpull, where the operators of a platform or token abruptly withdraw investor funds, shut down access, or abandon the project after gaining public trust.
+
+Hilton Consultancy advises the public to remain vigilant and cautious when dealing with cryptocurrency platforms that lack transparent registration, verifiable company ownership, regulatory compliance, or a clear legal framework. Investors are strongly advised to conduct thorough due diligence, verify licensing status, and avoid platforms that pressure users into urgent deposits or unrealistic profit promises.
+
+Victims of the alleged Valobit scam are encouraged to gather transaction evidence, screenshots, wallet addresses, communication records, and payment proofs, and to report the matter to relevant financial authorities and law enforcement agencies in their respective jurisdictions.
+            </p>
+          </div>
+        </div>
+
+        <!-- NEWS 5 -->
+        <div class="news-card">
+          <img src="./img/SDK TAX ID.jpg" alt="News Image 5">
+          <div class="news-content">
+            <h3>Shivadevkumar GK Tax ID</h3>
+            <small>Published: April 20, 2026</small>
+            <p>
+              Public Notice: Misuse of Tax Identification in Fraud Schemes
+
+Hilton Consultancy issues this public notice to alert individuals and businesses about the increasing misuse of tax identification details and related documentation in fraudulent transactions.
+
+There have been reports of situations where individuals present or circulate tax identification numbers and related documents to create a false sense of legitimacy in business or financial dealings. In some cases, these documents are used to gain trust, secure investments, or facilitate unauthorized transactions.
+
+The public is strongly advised that a Tax ID alone does not verify the legitimacy of a person, company, or transaction. Proper due diligence should always be conducted, including verification through official tax authorities, corporate registries, and relevant regulatory bodies before engaging in any financial agreement.
+
+Hilton Consultancy encourages all clients and members of the public to remain vigilant, verify all documentation independently, and avoid transactions based solely on presented identification numbers or informal claims of registration.
+
+This notice is issued for awareness and fraud prevention purposes.
+
+Hilton Consultancy
+Legal Advisory & Consultancy Services
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- ABOUT SECTION -->
+    <div class="hero section" id="about">
+      <h2>About Hilton Consultancy</h2>
+      <p>
+        Hilton Consultancy is a professional legal consultancy firm providing trusted legal services,
+        corporate documentation, dispute resolution, contract drafting, and legal advisory support.
+        We ensure our clients stay compliant with legal frameworks and business laws.
+      </p>
+    </div>
+
+    <!-- SERVICES SECTION -->
+    <div class="hero section" id="services">
+      <h2>Our Services</h2>
+      <p>
+        ✔ Corporate & Business Registration (CAC)<br><br>
+        ✔ Contract Drafting & Agreement Review<br><br>
+        ✔ Legal Advisory & Consultation<br><br>
+        ✔ Dispute Resolution & Litigation Support<br><br>
+        ✔ Property Documentation & Verification
+      </p>
+    </div>
+
+    <!-- CONTACT SECTION -->
+    <div class="hero section" id="contact">
+      <h2>Contact Hilton Consultancy</h2>
+      <p>
+        <strong>Email:</strong> hiltonconsultancy@gmail.com <br><br>
+        <strong>Phone:</strong> +44 4543 665 456 <br><br>
+        <strong>Office Address:</strong> London, United Kingdom. <br><br>
+        <strong>Working Hours:</strong> Mon - Fri (9am - 5pm)
+      </p>
+    </div>
+
+  </div>
+
+  <footer>
+    &copy; 2026 Hilton Consultancy. All Rights Reserved.
+  </footer>
+
+</body>
+</html>    add more js to the website and make all images big and just make the site like a real bulletin
